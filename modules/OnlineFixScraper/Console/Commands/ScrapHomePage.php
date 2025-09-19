@@ -43,7 +43,7 @@ class ScrapHomePage extends Command
             ];
         });
 
-        asort($articles);
+        krsort($articles);
 
         foreach ($articles as $article) {
             $art = Article::firstOrCreate(
