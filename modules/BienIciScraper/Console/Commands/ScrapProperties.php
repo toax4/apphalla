@@ -74,7 +74,7 @@ class ScrapProperties extends Command
                     "surfaceArea" => $property["surfaceArea"],
                     "city" => $property["city"],
                     "postalCode" => $property["postalCode"],
-                    "price" => $property["price"],
+                    "price" => is_array($property["price"]) ? $property["price"][0] : $property["price"],
                     "pricePerSquareMeter" => $property["pricePerSquareMeter"],
                 ];
 
