@@ -169,6 +169,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Modules\OnlineFixScraper\ModuleServiceProvider::class,
+        Modules\BienIciScraper\ModuleServiceProvider::class,
     ])->toArray(),
 
     /*
