@@ -13,4 +13,4 @@
 @endif
 
 
-<a href="{{ $article->link }}">👉 Voir l'offre</a>
+<a href="{{ $article->link }}">👉 Voir le bien</a>
